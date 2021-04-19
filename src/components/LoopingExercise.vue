@@ -41,7 +41,7 @@
             property on the object we want to print the key(property name) and
             value contained at that key.
           </p>
-          <div class="blog" v-for="(value, index) in state.blog" :key="index">
+          <div class="blog" v-for="(blog, index) in state.blog" :key="index">
             <p>{{ state.name }}: {{ state.value }}</p>
           </div>
         </div>
